@@ -22,3 +22,7 @@ const peerServer = ExpressPeerServer(server, {
 });
 
 app.use('/server', peerServer);
+
+peerServer.on('connection', (client) => {
+  console.log('connection');
+});
