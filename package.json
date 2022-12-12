@@ -4,7 +4,7 @@
   "description": "peerjs sandbox app",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "peer": "^0.5.2",
     "minimist": ">=1.2.2"
   },
